@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#062e3f">
+   <!-- Google Font: Quick Sand -->
+   <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap" rel="stylesheet">
+   <script src="https://kit.fontawesome.com/8e164b75be.js" crossorigin="anonymous"></script>
+
+        
+
+    <link rel="stylesheet" href="main.css">
+   
+    <title>TO DO LIST</title>
+</head>
+<body>
+    <div id = "header">
+        <div class="flexrow-container">
+           
+            <div class="light-theme theme-selector"></div>
+            <div class="darker-theme theme-selector"></div>
+        </div>
+        <h1 id="title">Tasks.<div id="border"></div></h1>
+    </div>
+
+  <div id="form">
+        <form>
+            <input class="todo-input" type="text"  maxlength="30" placeholder="Add a task." >
+            <button class="todo-btn" type="submit">Add Me!</button>
+        </form>
+    </div>
+  <div id="myUnOrdList">
+        <ul class="todo-list">
+        </ul>
+    </div>
+    <script src="app.js" type="text/javascript"> </script>
+</body>
+</html>
